@@ -1,19 +1,18 @@
 import Headers from "next/head";
-import Image from "next/image";
-import NavigationBar from "../components/navigation-bar";
-import Particle from "../components/particle";
+import NavigationBarComponent from "../components/navigation-bar";
+import ParticleComponent from "../components/particle";
 
 export default function Home() {
   return (
     <div className="h-screen bg-scroll bg-cover bg-center bg-[url('/images/caravan.png')]">
-      <Particle />
-      <NavigationBar />
-      <div className="max-w-4xl py-32 px-32 sm:py-48 lg:py-56">
+      <ParticleComponent />
+      <NavigationBarComponent />
+      <main className="max-w-4xl px-10 sm:px-20 lg:px-32 py-32">
         <div className="text-start">
           <h1 className="text-4xl font-bold tracking-loose text-white sm:text-6xl">
             Enjoy a Comfortable Vacation With a Campervan
           </h1>
-          <p className="mt-6 text-sm  text-[#d9dae8]">
+          <p className="mt-6 text-sm max-w-lg text-[#d9dae8]">
             Explore the nature around you with different experiences. We are
             sure that a holiday exploring new places with a campervan will make
             a different experience.
@@ -24,7 +23,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }
