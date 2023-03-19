@@ -69,7 +69,7 @@ export default function Particle() {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 120,
           },
           opacity: {
             value: 0.4,
@@ -78,7 +78,7 @@ export default function Particle() {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,

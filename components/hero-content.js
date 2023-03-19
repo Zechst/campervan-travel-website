@@ -10,11 +10,13 @@ export default function HeroContent() {
           that a holiday exploring new places with a campervan will make a
           different experience.
         </p>
-        <div className="mt-5 flex items-center justify-start">
-          <a className="rounded-3xl bg-gradient-to-r from-pink-500 via-pink-500 to-orange-300 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400">
-            Start Booking Now!
-          </a>
-        </div>
+        <button
+          type="button"
+          onClick={() => console.log("clicked")}
+          className="relative rounded-3xl bg-gradient-to-r from-pink-500 via-pink-500 to-orange-400 hover:from-pink-600 hover:to-orange-500 active:from-pink-700 active:to-orange-700 mt-5 px-4 py-3 text-md font-semibold text-white shadow-lg shadow-pink-500/50  cursor-pointer"
+        >
+          Start Booking Now!
+        </button>
       </div>
     </main>
   );
