@@ -33,7 +33,7 @@ export default function Navigation() {
                 item.current
                   ? "bg-gray-900 text-white"
                   : "text-gray-300 hover:bg-slate-900 hover:bg-opacity-50 hover:text-white",
-                "rounded-3xl px-3 py-2 text-sm font-medium"
+                "rounded-3xl px-3 py-2 text-sm font-medium cursor-pointer select-none"
               )}
               aria-current={item.current ? "page" : undefined}
             >
@@ -42,7 +42,7 @@ export default function Navigation() {
           ))}
         </div>
       </div>
-      <div className="block md:hidden p-1 rounded-md hover:bg-slate-900 hover:bg-opacity-50 hover:text-white">
+      <div className="block md:hidden p-1 rounded-md hover:bg-slate-900 hover:bg-opacity-50 hover:text-white cursor-pointer">
         {menuIcon}
       </div>
     </nav>
