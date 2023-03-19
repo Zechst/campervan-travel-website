@@ -19,8 +19,8 @@ function classNames(...classes) {
 
 export default function Navigation() {
   return (
-    <nav className="pt-20 px-10 sm:px-20 lg:px-32 relative flex h-16 items-center justify-between">
-      <div className="flex flex-shrink-0 items-center">
+    <nav className="pt-20 px-10 sm:px-20 lg:px-32 flex h-16 items-center justify-between">
+      <div className="flex-shrink-0 items-center">
         <Image width={32} height={32} src={brandLogo} />
       </div>
       <div className="hidden sm:ml-6 md:block">
