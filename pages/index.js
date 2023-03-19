@@ -1,6 +1,6 @@
 import Headers from "next/head";
 import Image from "next/image";
-import Particles from "particlesjs";
+import Particle from "../components/particle";
 
 export default function Home() {
   const backgroundImage = "/images/caravan.jpg";
@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className="bg-[#c8ccd7] h-screen">
       <div className="bg-scroll relative isolate overflow-hidden pt-14">
+        <Particle />
         <Image
           src={backgroundImage}
           fill
