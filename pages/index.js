@@ -9,6 +9,9 @@ import Bonfire from "../components/animation/bonfire/bonfire";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Campervan Travel</title>
+      </Head>
       <div className="relative h-screen bg-cover bg-center bg-[url('/images/caravan.png')]">
         <ParticleComponent />
         <div className="absolute top-2/4 h-40 w-full">
