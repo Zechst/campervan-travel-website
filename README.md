@@ -18,7 +18,7 @@ Please show support to the designer and his design studio by checking out their 
 • Interactive particles and animated bonfire.   
    
    
-![campervan](https://user-images.githubusercontent.com/38596941/226355393-132a3cd0-670a-4839-9241-8567a2e98bd0.gif). 
+![campervan](https://user-images.githubusercontent.com/38596941/226355393-132a3cd0-670a-4839-9241-8567a2e98bd0.gif) 
 
 ## Getting Started
 
