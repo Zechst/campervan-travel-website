@@ -16,8 +16,7 @@ Please show support to the designer and his design studio by checking out their 
 ## Features
 • Visually appealing, minimalistic design.  
 • Interactive particles and animated bonfire.
-![Example GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDM4OWMzYTk3YTNmMjEzOTBkMTJhZDM0MmE2NDE0Y2ZkYjM0ZTczNSZjdD1n/wk6Pjo3p4bj1U9KHDm/giphy.gif)
-
+![campervan](https://user-images.githubusercontent.com/38596941/226355393-132a3cd0-670a-4839-9241-8567a2e98bd0.gif)
 
 ## Getting Started
 
